@@ -24,10 +24,7 @@
 		B0FC81881A38A11900382855 /* WebAddressSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FC81871A38A11900382855 /* WebAddressSearchViewController.m */; };
 		CA15373F21778E3C008D1D09 /* rainbow-enoshima_100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA15366821778E3C008D1D09 /* rainbow-enoshima_100.jpg */; };
 		CA15374021778E3C008D1D09 /* bg_sakura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA15366921778E3C008D1D09 /* bg_sakura.jpg */; };
-		CA15374121778E3C008D1D09 /* snowflakes Macro_800x600.png in Resources */ = {isa = PBXBuildFile; fileRef = CA15366A21778E3C008D1D09 /* snowflakes Macro_800x600.png */; };
 		CA15374221778E3C008D1D09 /* 4_sakura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA15366B21778E3C008D1D09 /* 4_sakura.jpg */; };
-		CA15374321778E3C008D1D09 /* bg_rainbow-enoshima_s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA15366C21778E3C008D1D09 /* bg_rainbow-enoshima_s.jpg */; };
-		CA15374421778E3C008D1D09 /* skystar.png in Resources */ = {isa = PBXBuildFile; fileRef = CA15366D21778E3C008D1D09 /* skystar.png */; };
 		CA15374521778E3C008D1D09 /* tab_week.png in Resources */ = {isa = PBXBuildFile; fileRef = CA15366E21778E3C008D1D09 /* tab_week.png */; };
 		CA15374621778E3C008D1D09 /* non.png in Resources */ = {isa = PBXBuildFile; fileRef = CA15366F21778E3C008D1D09 /* non.png */; };
 		CA1537D721778E3D008D1D09 /* back2today.png in Resources */ = {isa = PBXBuildFile; fileRef = CA15370121778E3C008D1D09 /* back2today.png */; };
@@ -111,6 +108,7 @@
 		CA794F5119FB44EE00C96F85 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA794F5019FB44EE00C96F85 /* Default@2x.png */; };
 		CA794F5319FB44EE00C96F85 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA794F5219FB44EE00C96F85 /* Default-568h@2x.png */; };
 		CACEEFEE205D3EE6005A3995 /* db2018.json in Resources */ = {isa = PBXBuildFile; fileRef = CACEEFED205D3EE6005A3995 /* db2018.json */; };
+		CAE753EA21875E5A009390AB /* bairin_tsukuba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAE753E921875E59009390AB /* bairin_tsukuba.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -143,10 +141,7 @@
 		B0FC81871A38A11900382855 /* WebAddressSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebAddressSearchViewController.m; sourceTree = "<group>"; };
 		CA15366821778E3C008D1D09 /* rainbow-enoshima_100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rainbow-enoshima_100.jpg"; sourceTree = "<group>"; };
 		CA15366921778E3C008D1D09 /* bg_sakura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_sakura.jpg; sourceTree = "<group>"; };
-		CA15366A21778E3C008D1D09 /* snowflakes Macro_800x600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snowflakes Macro_800x600.png"; sourceTree = "<group>"; };
 		CA15366B21778E3C008D1D09 /* 4_sakura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4_sakura.jpg; sourceTree = "<group>"; };
-		CA15366C21778E3C008D1D09 /* bg_rainbow-enoshima_s.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg_rainbow-enoshima_s.jpg"; sourceTree = "<group>"; };
-		CA15366D21778E3C008D1D09 /* skystar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skystar.png; sourceTree = "<group>"; };
 		CA15366E21778E3C008D1D09 /* tab_week.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_week.png; sourceTree = "<group>"; };
 		CA15366F21778E3C008D1D09 /* non.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = non.png; sourceTree = "<group>"; };
 		CA15370121778E3C008D1D09 /* back2today.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back2today.png; sourceTree = "<group>"; };
@@ -235,6 +230,7 @@
 		CA794F5219FB44EE00C96F85 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		CA7C28B41A62ED9A00EB538D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CACEEFED205D3EE6005A3995 /* db2018.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = db2018.json; sourceTree = "<group>"; };
+		CAE753E921875E59009390AB /* bairin_tsukuba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bairin_tsukuba.jpg; path = gomi_alpha/image4app/background/bairin_tsukuba.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -320,12 +316,10 @@
 		CA15366721778E3C008D1D09 /* background */ = {
 			isa = PBXGroup;
 			children = (
-				CA15366C21778E3C008D1D09 /* bg_rainbow-enoshima_s.jpg */,
-				CA15366A21778E3C008D1D09 /* snowflakes Macro_800x600.png */,
 				CA15366821778E3C008D1D09 /* rainbow-enoshima_100.jpg */,
 				CA15366921778E3C008D1D09 /* bg_sakura.jpg */,
+				CAE753E921875E59009390AB /* bairin_tsukuba.jpg */,
 				CA15366B21778E3C008D1D09 /* 4_sakura.jpg */,
-				CA15366D21778E3C008D1D09 /* skystar.png */,
 			);
 			path = background;
 			sourceTree = "<group>";
@@ -511,9 +505,7 @@
 				CA1537E921778E3D008D1D09 /* tab_setting.png in Resources */,
 				CA15374521778E3C008D1D09 /* tab_week.png in Resources */,
 				CA1537ED21778E3D008D1D09 /* word_paper-cloth.png in Resources */,
-				CA15374321778E3C008D1D09 /* bg_rainbow-enoshima_s.jpg in Resources */,
 				CA15385721779001008D1D09 /* 1blk-2018-11.png in Resources */,
-				CA15374421778E3C008D1D09 /* skystar.png in Resources */,
 				CA1537F521778E3D008D1D09 /* tab_month.png in Resources */,
 				CA794F4719FB44EE00C96F85 /* InfoPlist.strings in Resources */,
 				CA15373F21778E3C008D1D09 /* rainbow-enoshima_100.jpg in Resources */,
@@ -568,6 +560,7 @@
 				CA15374021778E3C008D1D09 /* bg_sakura.jpg in Resources */,
 				CA15385221779001008D1D09 /* 4blk-2018-11.png in Resources */,
 				CA1537E421778E3D008D1D09 /* word_discard_article.png in Resources */,
+				CAE753EA21875E5A009390AB /* bairin_tsukuba.jpg in Resources */,
 				CA1537E121778E3D008D1D09 /* word_non.png in Resources */,
 				CA15384621779001008D1D09 /* 2blk-2018-09.png in Resources */,
 				CA1537D721778E3D008D1D09 /* back2today.png in Resources */,
@@ -580,7 +573,6 @@
 				CA15384921779001008D1D09 /* 1blk-2018-10.png in Resources */,
 				CA15385521779001008D1D09 /* 4blk-2018-10.png in Resources */,
 				CA15384521779001008D1D09 /* 3blk-2019-03.png in Resources */,
-				CA15374121778E3C008D1D09 /* snowflakes Macro_800x600.png in Resources */,
 				CA1537EA21778E3D008D1D09 /* can.png in Resources */,
 				CA1537EF21778E3D008D1D09 /* tab_month@2x.png in Resources */,
 				CA1537DA21778E3D008D1D09 /* kanen.png in Resources */,
