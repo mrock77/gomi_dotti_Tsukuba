@@ -328,7 +328,7 @@
 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
 <subviews>
-<imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_rainbow-enoshima_s.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cDI-eI-BYQ">
+<imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bairin_tsukuba.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cDI-eI-BYQ">
 <rect key="frame" x="0.0" y="18" width="320" height="501"/>
 </imageView>
 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="収集なし" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bws-3O-sw4">
@@ -694,7 +694,7 @@
 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
 <subviews>
-<imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_rainbow-enoshima_s.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="INE-d6-ULz">
+<imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bairin_tsukuba.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="INE-d6-ULz">
 <rect key="frame" x="0.0" y="18" width="320" height="501"/>
 </imageView>
 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="地区" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U5o-sS-Wm5">
@@ -831,7 +831,7 @@
 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
 <subviews>
-<imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_rainbow-enoshima_s.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WGH-xo-tDb">
+<imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bairin_tsukuba.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WGH-xo-tDb">
 <rect key="frame" x="0.0" y="18" width="320" height="501"/>
 </imageView>
 <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SK9-NK-bHs">
@@ -1241,7 +1241,30 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
 <subviews>
-<imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_rainbow-enoshima_s.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mZj-9z-dlJ">
+<button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHK-Vb-xCY">
+<rect key="frame" x="16" y="460" width="139" height="54"/>
+<color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+<fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="20"/>
+<state key="normal" title="５ブロック">
+<color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+<color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</state>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
+<size key="value" width="0.0" height="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
+<real key="value" value="0.5"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="layer.shadowRadius">
+<integer key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<connections>
+<action selector="btnBlk5:" destination="UFz-DU-91U" eventType="touchUpInside" id="Gnd-4T-joM"/>
+</connections>
+</button>
+<imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bairin_tsukuba.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mZj-9z-dlJ">
 <rect key="frame" x="0.0" y="18" width="320" height="501"/>
 </imageView>
 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="地区" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UmJ-TJ-aJ5">
@@ -1359,7 +1382,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
 </connections>
 </button>
 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CB1-qn-Kua">
-<rect key="frame" x="16" y="289.5" width="139" height="54"/>
+<rect key="frame" x="16" y="348.5" width="139" height="53.5"/>
 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="20"/>
 <state key="normal" title="南地区">
@@ -1381,7 +1404,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
 </connections>
 </button>
 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ql-XK-yNv">
-<rect key="frame" x="16" y="346.5" width="139" height="53.5"/>
+<rect key="frame" x="16" y="405" width="139" height="54"/>
 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="20"/>
 <state key="normal" title="東地区">
@@ -1403,7 +1426,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
 </connections>
 </button>
 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpI-Hs-aup">
-<rect key="frame" x="16" y="403" width="139" height="54"/>
+<rect key="frame" x="16" y="462" width="139" height="54"/>
 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="20"/>
 <state key="normal" title="西地区">
@@ -1422,29 +1445,6 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
 </userDefinedRuntimeAttributes>
 <connections>
 <action selector="btnBlk4:" destination="UFz-DU-91U" eventType="touchUpInside" id="HMa-BO-mXB"/>
-</connections>
-</button>
-<button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHK-Vb-xCY">
-<rect key="frame" x="16" y="460" width="139" height="54"/>
-<color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-<fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="20"/>
-<state key="normal" title="５ブロック">
-<color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-<color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-</state>
-<userDefinedRuntimeAttributes>
-<userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
-<size key="value" width="0.0" height="0.0"/>
-</userDefinedRuntimeAttribute>
-<userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
-<real key="value" value="0.5"/>
-</userDefinedRuntimeAttribute>
-<userDefinedRuntimeAttribute type="number" keyPath="layer.shadowRadius">
-<integer key="value" value="1"/>
-</userDefinedRuntimeAttribute>
-</userDefinedRuntimeAttributes>
-<connections>
-<action selector="btnBlk5:" destination="UFz-DU-91U" eventType="touchUpInside" id="Gnd-4T-joM"/>
 </connections>
 </button>
 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="62S-5b-fwr">
@@ -1471,7 +1471,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
 </connections>
 </button>
 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ape-fN-ezQ">
-<rect key="frame" x="16" y="232.5" width="139" height="54"/>
+<rect key="frame" x="16" y="291.5" width="139" height="54"/>
 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="20"/>
 <state key="normal" title="北地区">
@@ -1589,6 +1589,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
 <constraint firstItem="62S-5b-fwr" firstAttribute="trailing" secondItem="dss-Yg-lF6" secondAttribute="trailing" id="RLl-s8-Cm2"/>
 <constraint firstItem="9ql-XK-yNv" firstAttribute="width" secondItem="mV0-5c-As7" secondAttribute="width" id="RLr-lf-Pi3"/>
 <constraint firstItem="9ql-XK-yNv" firstAttribute="height" secondItem="gpI-Hs-aup" secondAttribute="height" id="Rvr-Xl-mm4"/>
+<constraint firstItem="m8C-8V-NZh" firstAttribute="top" secondItem="gpI-Hs-aup" secondAttribute="bottom" constant="3" id="SQ7-SN-otv"/>
 <constraint firstItem="9ql-XK-yNv" firstAttribute="top" secondItem="CB1-qn-Kua" secondAttribute="bottom" constant="3" id="StS-0l-SE1"/>
 <constraint firstItem="ZyN-If-Uge" firstAttribute="top" secondItem="cPN-p8-SoZ" secondAttribute="bottom" constant="2" id="UFu-Wr-fOq"/>
 <constraint firstAttribute="bottom" secondItem="mZj-9z-dlJ" secondAttribute="bottom" id="USn-3r-gbM"/>
@@ -1606,7 +1607,6 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
 <constraint firstItem="gpI-Hs-aup" firstAttribute="leading" secondItem="CB1-qn-Kua" secondAttribute="leading" id="fPs-aA-jwM"/>
 <constraint firstItem="9ql-XK-yNv" firstAttribute="height" secondItem="CB1-qn-Kua" secondAttribute="height" id="fSU-G5-Ebh"/>
 <constraint firstItem="fNL-Ys-iYB" firstAttribute="leading" secondItem="GqS-Cx-Dym" secondAttribute="leadingMargin" id="hPH-xm-kED"/>
-<constraint firstItem="mHK-Vb-xCY" firstAttribute="top" secondItem="gpI-Hs-aup" secondAttribute="bottom" constant="3" id="i4L-D3-2CV"/>
 <constraint firstItem="62S-5b-fwr" firstAttribute="trailing" secondItem="dZl-Tp-Kpa" secondAttribute="trailing" id="kIY-ma-hck"/>
 <constraint firstAttribute="trailingMargin" secondItem="UmJ-TJ-aJ5" secondAttribute="trailing" id="lPv-3p-WsA"/>
 <constraint firstItem="9ql-XK-yNv" firstAttribute="width" secondItem="mHK-Vb-xCY" secondAttribute="width" id="lb6-Y6-gUg"/>
@@ -1656,7 +1656,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
 <subviews>
-<imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_rainbow-enoshima_s.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="MhE-7P-zAn">
+<imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bairin_tsukuba.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="MhE-7P-zAn">
 <rect key="frame" x="0.0" y="18" width="320" height="501"/>
 </imageView>
 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="収集なし" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s3g-bP-ijs">
@@ -2219,7 +2219,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
 <image name="29gomiguideforeign-English.png" width="1389" height="1886"/>
 <image name="29gomiguideforeign-others.png" width="1389" height="1886"/>
 <image name="back2today.png" width="256" height="223"/>
-<image name="bg_rainbow-enoshima_s.jpg" width="992" height="1150"/>
+<image name="bairin_tsukuba.jpg" width="1318" height="1980"/>
 <image name="can.png" width="147" height="120"/>
 <image name="discard_article.png" width="148" height="127"/>
 <image name="funen.png" width="148" height="127"/>
